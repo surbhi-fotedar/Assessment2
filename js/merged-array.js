@@ -5,7 +5,6 @@
 
   function mergeArray(arr) {
     var arrLength = arr.length;
-    console.log(arrLength);
 
     for (var i = 0; i < arrLength; i++) {
       newArr[i] = arr[i];

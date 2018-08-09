@@ -1,4 +1,5 @@
 (function() {
+  'use strict';
   var str = 'Level';
 
   function checkPalindrome(str) {
