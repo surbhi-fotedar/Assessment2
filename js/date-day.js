@@ -45,7 +45,7 @@
           console.log(date + ' is ' + day + ' and the corresponding Sunday date is ' + sundayDate);
       }
     } catch (err) {
-      alert('Invalid Date is Passed ' + err.message);
+      alert(err.message);
     }
 
   }
