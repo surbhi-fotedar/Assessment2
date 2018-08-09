@@ -1,15 +1,16 @@
 (function() {
   'use strict';
-  var arr = [2, 3, 4];
+  var arr = [2, 3, 4, 5, 6, 7];
+  var newArr = [];
 
   function mergeArray(arr) {
     var arrLength = arr.length;
     console.log(arrLength);
 
     for (var i = 0; i < arrLength; i++) {
-      arr[i + arrLength] = arr[i];
+      newArr[i] = arr[i];
     }
-    console.log(arr);
+    console.log(newArr.concat(arr));
   }
 
   mergeArray(arr);

@@ -5,10 +5,7 @@
     type: 'Basic'
   };
 
-  var secondObject = {
-    name: 'JavaScript',
-    type: 'Basic'
-  };
+  var secondObject = firstObject;
 
   function compareObjects(firstObject, secondObject) {
     if (firstObject === secondObject) {
@@ -19,7 +16,5 @@
   }
 
   compareObjects(firstObject, secondObject);
-
-
 
 })();
