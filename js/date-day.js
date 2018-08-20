@@ -5,6 +5,7 @@
   var sundayDate = new Date();
 
   function dayInfo(date) {
+    // The logic can be simplified
     try {
       var anyDate = new Date(date);
       var d = anyDate.getDay();
