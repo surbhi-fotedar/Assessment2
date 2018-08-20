@@ -3,6 +3,7 @@
   var str = 'Level';
 
   function checkPalindrome(str) {
+    // The logic can be simplified
     try {
       var checkstr = str.toLowerCase();
       var strLength = str.length;
