@@ -14,7 +14,8 @@
 
   function findSundayDate(value, dayNumber) {
     try {
-      return value.setDate(value.getDate() - dayNumber);
+      value.setDate(value.getDate() - dayNumber);
+      return value;
     } catch (error) {
       console.log(error);
     }
@@ -31,7 +32,7 @@
       } else {
         console.log(value + ' is ' + getDayOfWeek(d) + ' and the corresponding Sunday date is ' + findSundayDate(value, d));
       }
-    } catch(error) {
+    } catch (error) {
       console.log(error);
     }
   }
